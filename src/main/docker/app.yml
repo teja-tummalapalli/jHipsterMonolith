@@ -1,0 +1,14 @@
+version: '2'
+services:
+    monolith2-app:
+        image: monolith2
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATASOURCE_URL=jdbc:postgresql://monolith2-postgresql:5432/monolith2
+            - JHIPSTER_SLEEP=10 # gives time for the database to boot before the application
+        ports:
+            - 8080:8080
+    monolith2-postgresql:
+        extends:
+            file: postgresql.yml
+            service: monolith2-postgresql

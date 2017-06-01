@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ibm.bluemix"
+    },
+    "jhipsterVersion": "4.4.1",
+    "baseName": "monolith2",
+    "packageName": "com.ibm.bluemix",
+    "packageFolder": "com/ibm/bluemix",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "hibernateCache": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "3a8b759f871b07988839cf1f4ee230f1ef82e723",
+    "clientFramework": "angular1",
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "applicationType": "monolith",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": false,
+    "appsFolders": [
+      "App2"
+    ],
+    "directoryPath": "../",
+    "dockerRepositoryName": "teja59",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default"
+  }
+}
